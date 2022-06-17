@@ -1,0 +1,261 @@
+.video-page {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    @media screen and (min-width: 1050px) and (max-width: 2056px) {
+        max-width: 480px;
+    }
+    .detail-title {
+        padding: 10px;
+        color: #333333;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .sec_title {
+        color: #333333;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .detail-content {
+        overflow-y: auto;
+        .courseInstruction {
+            background: #f3f4f6;
+            padding-bottom: 8px;
+            border-top: 0.5px solid #dadada;
+            .courseInstruction-content {
+                background-color: #ffffff;
+                padding: 15px 12px;
+                .title {
+                    color: #001b34;
+                    font-size: 18px;
+                    font-weight: 600;
+                    width: 23rem;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow-y: hidden;
+                }
+                .category-area {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    .category {
+                        .category-name-1 {
+                            border-top-left-radius: 10px;
+                            background: #4290ee;
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                        }
+                        .category-name-2 {
+                            border-top-left-radius: 10px;
+                            background: #2eceac;
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                        }
+                        .category-name-3 {
+                            border-top-left-radius: 10px;
+                            background: #4487f8;
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                        }
+                        .category-name-4 {
+                            border-top-left-radius: 10px;
+                            background: #e86434;
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                        }
+                        .category-name-5 {
+                            border-top-left-radius: 10px;
+                            background: #f2a541;
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                        }
+                        .zhibo {
+                            color: #ffffff;
+                            font-size: 10px;
+                            padding: 3px 5px;
+                            border-bottom-right-radius: 10px;
+                            background-color: #000000;
+                            opacity: 0.5;
+                        }
+                    }
+                }
+                .introduction {
+                    color: #666666;
+                    font-size: 14px;
+                    .more {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .detail {
+                        color: #4c93f7;
+                    }
+                }
+                .startTime {
+                    color: #999999;
+                    font-size: 12px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .shop {
+            background: #f3f4f6;
+            padding-top: 8px;
+            .shop-content {
+                display: flex;
+                justify-content: space-between;
+                background-color: #ffffff;
+                align-items: center;
+                padding: 8px 15px;
+                .content {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .logo {
+                        border-radius: 50%;
+                    }
+                    .title {
+                        margin-left: 5px;
+                        display: flex;
+                        flex-direction: column;
+                        .name {
+                            color: #666666;
+                            font-weight: 500;
+                            font-size: 14px;
+                        }
+                        .dec {
+                            width: 15rem;
+                            color: #999999;
+                            font-size: 12px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    color: #4c93f7;
+                    font-weight: 500;
+                    font-size: 12px;
+                    border-radius: 20px;
+                    background: #d9e9fd;
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+    .no-content {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        .text {
+            color: #999999;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 10px 0;
+        }
+    }
+    .scroll-area {
+        overflow-y: scroll;
+
+        .instruction {
+            padding: 0 20px 0 20px;
+            .title {
+                color: #001b34;
+                font-size: 18px;
+                font-weight: 900;
+                padding: 10px 0 10px 0;
+            }
+            .onsaleTime {
+                color: #5b6b7a;
+                font-size: 12px;
+            }
+            .price {
+                color: #f21a95;
+                font-size: 15px;
+                padding: 10px 0 10px 0;
+            }
+        }
+        .line {
+            margin: 0 20px 0 20px;
+            border-top: 1px solid #d8d9da;
+        }
+        .content {
+            padding: 10px 20px;
+        }
+    }
+    .poster {
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .wxshare-bg {
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        // opacity: 0.3;
+        .tip {
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 32%;
+            .big-title {
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+        }
+        .trans {
+            position: absolute;
+            right: 25px;
+            top: 15px;
+        }
+    }
+    .pwd-input {
+        border-radius: 4px;
+        border: 1px solid #cccccc;
+    }
+    .fixed_bottom {
+        position: fixed;
+        width: 100%;
+        @media screen and (min-width: 1050px) and (max-width: 2056px) {
+            max-width: 480px;
+        }
+        bottom: 0;
+        background-color: #ffffff;
+        border-top: 0.5px solid #dadada;
+        z-index: 998;
+        .join {
+            text-align: center;
+            padding: 12px 20px;
+            margin: 8px 15px 25px 15px;
+            border-radius: 10px;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 16px;
+            background: linear-gradient(90.93deg, #2e79f6 21.2%, #6da8f8 161.79%);
+        }
+    }
+}
